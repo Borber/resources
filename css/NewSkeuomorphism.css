@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #efeeee;
+}
+
+.markdownShow img {
+  width: 80%;
+}
+
+.container-fluid {
+  margin: 0;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.msg {
+  width: 280px;
+  height: 200px;
+  border-radius: 20px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #efeeee;
+}
+
+.msg p {
+  color: slategrey;
+  font-family: "mFont";
+  font-size: 50px;
+  user-select: none;
+  transition: font-size 0.3s ease-out;
+}
+
+.msg:hover p {
+  color: black;
+  font-size: 45px;
+  transition: font-size 0.3s ease-out;
+}
+
+.separated {
+  height: 20vh;
+}
+
+.row.twobox {
+  margin-top: 15vh;
+}
+
+.logo {
+  user-select: none;
+  font-size: 56px;
+  margin-top: 15vh;
+}
+
+.row.CodeRaw {
+  margin-top: 35vh;
+}
+
+.row.goRow {
+  margin-top: 4vh;
+}
+
+.row.codeRow {
+  margin-top: 20vh;
+}
+
+.codeInput {
+  width: 36%;
+  height: 40px;
+  margin-top: 5vh;
+  border-style: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+}
+
+.NewS {
+  box-shadow: 18px 18px 30px rgba(0, 0, 0, 0.1), -18px -18px 30px rgba(255, 255, 255, 1);
+  background-color: #efeeee;
+  transition: box-shadow .3s ease-out;
+}
+
+.NewS:hover {
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px rgba(255, 255, 255, 0.8), inset 18px 18px 30px rgba(0, 0, 0, 0.1), inset -18px -18px 30px rgba(255, 255, 255, 1);
+  transition: box-shadow .3s ease-out;
+}
+
+.offerDiv {
+  height: 600px;
+  border-radius: 10px;
+  margin-top: 5vh;
+}
+
+.offterTitle {
+  width: 30%;
+  height: 30px;
+}
+
+.MarkDownEditor {
+  width: 100%;
+  margin-top: 5vh;
+  min-height: 400px;
+  border-radius: 10px;
+  padding: 30px;
+  overflow-Y: hidden;
+}
+
+.previewButton {
+  margin-right: 10px;
+}
+
+.mtop {
+  margin-top: 3vh;
+}
+
+.JobSelect {
+  width: 200px;
+  border-radius: 4px;
+  margin-left: 5%;
+  overflow: hidden;
+}
+
+.markdownShow {
+  width: 100%;
+  border-radius: 10px;
+  padding: 30px;
+}
