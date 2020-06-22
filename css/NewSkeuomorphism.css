@@ -7,6 +7,15 @@ body {
   background-color: #efeeee;
 }
 
+@font-face {
+  font-family: mFont;
+  src: url('../ZhongQiMaShanZhengMaoBiKaiShu.ttf');
+}
+@font-face{
+  font-family: Concrete;
+  src: url('./Concrete.ttf');
+}
+
 .markdownShow img {
   width: 80%;
 }
@@ -52,6 +61,7 @@ body {
 
 .logo {
   user-select: none;
+  font-family: 'Concrete';
   font-size: 56px;
   margin-top: 15vh;
 }
