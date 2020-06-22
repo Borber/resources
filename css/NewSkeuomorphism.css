@@ -9,11 +9,11 @@ body {
 
 @font-face {
   font-family: mFont;
-  src: url('../ZhongQiMaShanZhengMaoBiKaiShu.ttf');
+  src: url('https://cdn.jsdelivr.net/gh/Borber/resources/Font/ZhongQiMaShanZhengMaoBiKaiShu.ttf');
 }
 @font-face{
   font-family: Concrete;
-  src: url('./Concrete.ttf');
+  src: url('https://cdn.jsdelivr.net/gh/Borber/resources/Font/Concrete.ttf');
 }
 
 .markdownShow img {
