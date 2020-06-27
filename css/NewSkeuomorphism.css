@@ -16,8 +16,8 @@ body {
   src: url('https://cdn.jsdelivr.net/gh/Borber/resources/Font/Concrete.ttf');
 }
 
-.markdownShow img {
-  width: 80%;
+img{
+  max-width: 100%;
 }
 
 .container-fluid {
@@ -134,11 +134,31 @@ input:focus, textarea:focus, select:focus {
   width: 200px;
   border-radius: 4px;
   margin-left: 5%;
+  margin-top: 10px;
   overflow: hidden;
 }
 
-.markdownShow {
+.markdownShow,.offerShow{
   width: 100%;
   border-radius: 10px;
   padding: 30px;
+}
+
+.error {
+  margin-top: 30vh;
+}
+
+.errorMsg {
+  font-size: 50px;
+  font-family: 'Concrete';
+}
+
+.SeekBlock {
+  margin: 10px 10px;
+  height: 10vh;
+  line-height: 10vh;
+  border-radius: 10px;
+  user-select: none;
+  font-size: 20px;
+  font-family: 'mFont';
 }
